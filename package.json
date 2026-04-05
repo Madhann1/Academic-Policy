@@ -6,7 +6,8 @@
         "dev:frontend": "npm run dev --prefix frontend",
         "dev:backend": "npm run dev --prefix backend",
         "dev": "concurrently --kill-others --prefix-colors \"blue,green\" \"npm run dev:frontend\" \"npm run dev:backend\"",
-        "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+        "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend",
+        "build": "npm install --prefix frontend && npm run build --prefix frontend"
     },
     "devDependencies": {
         "concurrently": "^8.2.2"

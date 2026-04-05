@@ -1,5 +1,6 @@
 [build]
-  command   = "npm install --prefix frontend && npm run build --prefix frontend"
+  # We use the build script from the root package.json
+  command   = "npm run build"
   publish   = "frontend/dist"
 
 # React Router SPA redirect — all routes serve index.html
