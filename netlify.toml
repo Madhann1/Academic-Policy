@@ -1,7 +1,7 @@
 [build]
-  # Matching your Netlify UI setting (Base: frontend)
+  # This config assumes Netlify is building from the project ROOT
   command   = "npm run build"
-  publish   = "dist"
+  publish   = "frontend/dist"
 
 # PROXY API REQUESTS TO RENDER
 [[redirects]]
