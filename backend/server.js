@@ -25,10 +25,12 @@ const app = express();
 app.use(helmet({ crossOriginResourcePolicy: false }));
 
 // CORS — allow frontend (localhost for dev, Netlify URL for production)
+const clientUrl = process.env.CLIENT_URL ? process.env.CLIENT_URL.replace(/\/$/, '') : null;
 const allowedOrigins = [
     'http://localhost:5173',
     'http://localhost:3000',
-    process.env.CLIENT_URL,
+    'https://academic-tool.netlify.app', // Explicit fallback for your Netlify app
+    clientUrl,
 ].filter(Boolean);
 
 app.use(
@@ -36,7 +38,15 @@ app.use(
         origin: (origin, callback) => {
             // Allow requests with no origin (mobile apps, curl, Render health checks)
             if (!origin) return callback(null, true);
-            if (allowedOrigins.includes(origin)) return callback(null, true);
+            
+            // Normalize origin for comparison (remove trailing slash)
+            const normalizedOrigin = origin.replace(/\/$/, '');
+            
+            if (allowedOrigins.includes(normalizedOrigin)) {
+                return callback(null, true);
+            }
+            
+            console.error(`Blocked by CORS: origin ${origin} not in [${allowedOrigins.join(', ')}]`);
             callback(new Error(`CORS: origin ${origin} not allowed`));
         },
         credentials: true,
