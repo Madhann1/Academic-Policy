@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.production.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files (ephemeral on Render — don't commit)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Editor
+.vscode/
+.idea/
