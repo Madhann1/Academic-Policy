@@ -1,7 +1,7 @@
 [build]
-  # We use the build script from the root package.json
+  # This config matches a "Base Directory: frontend" setup in Netlify UI
   command   = "npm run build"
-  publish   = "frontend/dist"
+  publish   = "dist"
 
 # React Router SPA redirect — all routes serve index.html
 [[redirects]]
