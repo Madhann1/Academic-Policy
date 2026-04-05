@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "69842d912cd35986ce65aa0e"
+  },
+  "title": "Wifi not working ",
+  "category": "IT",
+  "content": "retify",
+  "status": "approved",
+  "version": 1,
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-05T05:41:37.675Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-05T05:42:03.800Z"
+  },
+  "__v": 0,
+  "currentVersionId": {
+    "$oid": "69842d912cd35986ce65aa10"
+  },
+  "approvedBy": {
+    "$oid": "698429812d589f2326011765"
+  }
+},
+{
+  "_id": {
+    "$oid": "69856c89850f16697408bd18"
+  },
+  "title": "CGPA Calculation change",
+  "category": "Academic",
+  "content": "This CGPA calculation is changed based on the new Credits",
+  "status": "approved",
+  "version": 1,
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-06T04:22:33.139Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-06T04:23:05.122Z"
+  },
+  "__v": 0,
+  "currentVersionId": {
+    "$oid": "69856c89850f16697408bd1a"
+  },
+  "approvedBy": {
+    "$oid": "698429812d589f2326011765"
+  }
+},
+{
+  "_id": {
+    "$oid": "69900f5254dea2eb2d17cc32"
+  },
+  "title": "Assignments must be submitted before deadline.",
+  "category": "Academic",
+  "content": "deadline is Feb end\n",
+  "status": "approved",
+  "version": 1,
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-14T05:59:46.502Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-16T05:39:10.438Z"
+  },
+  "__v": 0,
+  "currentVersionId": {
+    "$oid": "69900f5254dea2eb2d17cc34"
+  },
+  "approvedBy": {
+    "$oid": "698429812d589f2326011765"
+  }
+}]

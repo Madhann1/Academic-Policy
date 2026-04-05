@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "69842a492cd35986ce65a8e2"
+  },
+  "policyId": {
+    "$oid": "69842a492cd35986ce65a8e0"
+  },
+  "versionNumber": 1,
+  "content": "fff",
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-05T05:27:37.312Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-05T05:27:37.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69842d912cd35986ce65aa10"
+  },
+  "policyId": {
+    "$oid": "69842d912cd35986ce65aa0e"
+  },
+  "versionNumber": 1,
+  "content": "retify",
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-05T05:41:37.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-05T05:41:37.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69856c89850f16697408bd1a"
+  },
+  "policyId": {
+    "$oid": "69856c89850f16697408bd18"
+  },
+  "versionNumber": 1,
+  "content": "This CGPA calculation is changed based on the new Credits",
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-06T04:22:33.143Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-06T04:22:33.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69900f5254dea2eb2d17cc34"
+  },
+  "policyId": {
+    "$oid": "69900f5254dea2eb2d17cc32"
+  },
+  "versionNumber": 1,
+  "content": "deadline is Feb end\n",
+  "createdBy": {
+    "$oid": "698429812d589f2326011766"
+  },
+  "createdAt": {
+    "$date": "2026-02-14T05:59:46.569Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-14T05:59:46.569Z"
+  },
+  "__v": 0
+}]

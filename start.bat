@@ -1,0 +1,3 @@
+@echo off
+echo Starting Academic Policy Management System...
+npm run dev

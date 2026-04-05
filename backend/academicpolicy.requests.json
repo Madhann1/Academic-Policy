@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2f2"
+  },
+  "formType": "guest",
+  "facultyId": {
+    "$oid": "6996cfccccd66e7cee40f2ee"
+  },
+  "facultyName": "Dr. Rajesh Kumar",
+  "department": "CSE",
+  "formData": {
+    "guestName": "Dr. Sarita Varma",
+    "guestDesignation": "Scientist G",
+    "guestOrganization": "ISRO",
+    "purposeOfVisit": "Expert talk on Satellite Communication",
+    "arrivalDate": "2026-03-10",
+    "departureDate": "2026-03-12",
+    "roomType": "Deluxe"
+  },
+  "status": "Pending",
+  "adminRemarks": "",
+  "submittedAt": {
+    "$date": "2026-02-17T08:54:36.615Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.618Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2f3"
+  },
+  "formType": "training",
+  "facultyId": {
+    "$oid": "6996cfccccd66e7cee40f2ee"
+  },
+  "facultyName": "Dr. Rajesh Kumar",
+  "department": "CSE",
+  "formData": {
+    "programmeTitle": "Winter School on Deep Learning",
+    "financialSplit": "40/60",
+    "noOfFaculty": 4,
+    "durationFrom": "2026-02-01",
+    "durationTo": "2026-02-05",
+    "objectives": "To train junior faculty in Pytorch"
+  },
+  "status": "Approved",
+  "adminRemarks": "Budget approved. Proceed with invitations.",
+  "submittedAt": {
+    "$date": "2026-02-14T08:54:36.615Z"
+  },
+  "approvedAt": {
+    "$date": "2026-02-15T08:54:36.615Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.619Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2f4"
+  },
+  "formType": "transport",
+  "facultyId": {
+    "$oid": "6996cfccccd66e7cee40f2ee"
+  },
+  "facultyName": "Dr. Rajesh Kumar",
+  "department": "CSE",
+  "formData": {
+    "fromLocation": "College Campus",
+    "toLocation": "Vellore Institute",
+    "journeyDate": "2026-02-25",
+    "journeyTime": "09:00",
+    "noOfPersons": 12,
+    "vehicleType": "Minibus",
+    "purposeOfJourney": "Inter-college symposium"
+  },
+  "status": "Rejected",
+  "adminRemarks": "Vehicle not available on requested date. Please reschedule.",
+  "submittedAt": {
+    "$date": "2026-02-18T08:54:36.615Z"
+  },
+  "approvedAt": {
+    "$date": "2026-02-18T20:54:36.615Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.619Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.619Z"
+  }
+}]

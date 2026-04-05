@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2ed"
+  },
+  "name": "Admin User",
+  "email": "admin@college.edu",
+  "password": "$2b$10$dZcxMx4.Bln6FAhBX1nfO.I.yLfUMm2HycIyvd6qeYa1bQZgW9ro2",
+  "role": "admin",
+  "firstLogin": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.601Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2ee"
+  },
+  "name": "Dr. Rajesh Kumar",
+  "email": "faculty@college.edu",
+  "password": "$2b$10$dZcxMx4.Bln6FAhBX1nfO.I.yLfUMm2HycIyvd6qeYa1bQZgW9ro2",
+  "role": "faculty",
+  "firstLogin": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2ef"
+  },
+  "name": "Dr. V.K. Menon",
+  "email": "head@college.edu",
+  "password": "$2b$10$dZcxMx4.Bln6FAhBX1nfO.I.yLfUMm2HycIyvd6qeYa1bQZgW9ro2",
+  "role": "head_of_institution",
+  "firstLogin": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6996cfccccd66e7cee40f2f0"
+  },
+  "name": "Student User",
+  "email": "student@college.edu",
+  "password": "$2b$10$dZcxMx4.Bln6FAhBX1nfO.I.yLfUMm2HycIyvd6qeYa1bQZgW9ro2",
+  "role": "student",
+  "firstLogin": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-19T08:54:36.603Z"
+  }
+}]

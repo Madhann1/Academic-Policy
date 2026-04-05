@@ -1,0 +1,14 @@
+{
+    "name": "apm-root",
+    "version": "1.0.0",
+    "description": "Root orchestration for APM",
+    "scripts": {
+        "dev:frontend": "npm run dev --prefix frontend",
+        "dev:backend": "npm run dev --prefix backend",
+        "dev": "concurrently --kill-others --prefix-colors \"blue,green\" \"npm run dev:frontend\" \"npm run dev:backend\"",
+        "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
