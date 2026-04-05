@@ -1,7 +1,22 @@
 [build]
-  # This config matches a "Base Directory: frontend" setup in Netlify UI
+  # We run the build from the root, explicitly pointing to the frontend
   command   = "npm run build"
-  publish   = "dist"
+  publish   = "frontend/dist"
+
+# PROXY API REQUESTS TO RENDER
+# This solves the 404 and CORS issues by making the backend look like it's on the same domain.
+[[redirects]]
+  from   = "/api/*"
+  to     = "https://academic-policy.onrender.com/api/:splat"
+  status = 200
+  force  = true
+
+# PROXY UPLOADS TO RENDER
+[[redirects]]
+  from   = "/uploads/*"
+  to     = "https://academic-policy.onrender.com/uploads/:splat"
+  status = 200
+  force  = true
 
 # React Router SPA redirect — all routes serve index.html
 [[redirects]]
