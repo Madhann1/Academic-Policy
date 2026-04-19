@@ -61,7 +61,6 @@ const PolicyForm = () => {
             <div className="w-8 h-8 border-4 border-indigo-200 border-t-indigo-600 rounded-full loading-spinner" />
         </div>
     );
-
     return (
         <div className="flex-1 p-6 fade-in">
             <div className="max-w-2xl mx-auto">

@@ -18,7 +18,6 @@ const StatCard = ({ title, value, icon: Icon, color, sub }) => (
         </div>
     </div>
 );
-
 const AdminDashboard = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);

@@ -125,16 +125,7 @@ const LoginPage = () => {
                     </div>
                 </div>
 
-                {/* Demo credentials */}
-                <div className="mt-4 bg-white/5 border border-white/10 rounded-xl p-4">
-                    <p className="text-xs font-semibold text-indigo-300 mb-2">Demo Credentials:</p>
-                    <div className="space-y-1 text-xs text-indigo-200 font-mono">
-                        <p>Admin: admin@apm.edu / Admin@123</p>
-                        <p>HOD: hod@apm.edu / Hod@1234</p>
-                        <p>Faculty: priya.sharma@apm.edu / Faculty@123</p>
-                        <p>Student: arjun.singh@student.apm.edu / Student@123</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     );
